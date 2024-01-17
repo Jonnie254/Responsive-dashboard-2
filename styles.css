@@ -243,3 +243,15 @@ main .analytics .item i{
     font-size: 80px;
     color:#fff;
 }
+main .analytics .item:nth-child(1){
+    background: #006ED3;
+}
+main .analytics .item:nth-child(2){
+    background: #FF993A;
+}
+main .analytics .item:nth-child(3){
+    background:#8ac53e;
+}
+main .analytics .item:nth-child(4){
+    background: #ffd043;
+}
