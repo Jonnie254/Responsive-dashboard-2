@@ -50,6 +50,10 @@ i{
     cursor:pointer;
     display:none;
 }
+.menu-btn i{
+    font-size: 18px;
+    color:#208BEE;
+}
 .container .left-section .sidebar{
     display:flex;
     flex-direction: column;
@@ -115,4 +119,61 @@ i{
 }
 .container .left-section .upgrade .link a{
     font-size: 12px;
+}
+main{
+    border-right: 2px solid #F0F0F0;
+    border-left: 2px solid #F0F0F0;
+    padding:40px 40px 0 40px;
+}
+main header{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+main header h5{
+    font-size: 18px;
+    color:#369FFF;
+    font-weight: 400;
+}
+main .separator{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+main .separator .info{
+    display:flex;
+    align-items: center;
+    gap:30px;
+}
+main .separator .info h3{
+    font-size: 30px;
+}
+main .separator .info a{
+    margin-top:6px;
+    font-size: 14px;
+}
+main .separator .search{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+main .separator .search i{
+    font-size: 20px;
+    color: #369FFF; 
+}
+main .separator .search input{
+    border: none;
+    font-size: 14px;
+    width:80px;
+    outline: none;
+}
+main .separator .search input::placeholder{
+    color:#BDBDBD;
+}
+main .analytics{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    margin-top: 20px;
 }
