@@ -15,6 +15,7 @@ i{
 .container{
     display: grid;
     grid-template-columns: 1fr 3fr 2fr;
+    height:100vh;
 }
 .container .left-section{
     display: flex;
@@ -72,6 +73,27 @@ i{
     position: relative;
     transition: all 0.3s ease;
 }
+.container .left-section .sidebar .item#active a,
+.container .left-section .sidebar .item#active i,
+.container .left-section .sidebar .upgrade .link i{
+    color:#369FFF;
+}
+.container .left-section .sidebar .item a::after{
+    position: absolute;
+    content: "";
+    width:0px;
+    height:0px;
+    background-color: #369FFF;
+    right: -30px;
+    border-radius: 50px;
+    top:0;
+    transform:translateY(166%);
+    transition: all 0.3s ease;
+}
+.container .left-section .sidebar .item#active ::after{
+    width:8px;
+    height:8px;
+}
 .container .left-section .pic img{
-    width:100px;
+    width:200px;
 }
