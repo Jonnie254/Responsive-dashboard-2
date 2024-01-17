@@ -97,3 +97,22 @@ i{
 .container .left-section .pic img{
     width:200px;
 }
+.container .left-section .upgrade{
+    height:90px;
+    background:#EBF6FF;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 16px 24px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    cursor:pointer;
+}
+.container .left-section .upgrade .link{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .left-section .upgrade .link a{
+    font-size: 12px;
+}
