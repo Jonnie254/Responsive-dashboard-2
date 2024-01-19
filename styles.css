@@ -255,3 +255,28 @@ main .analytics .item:nth-child(3){
 main .analytics .item:nth-child(4){
     background: #ffd043;
 }
+main .separator input{
+    border:none;
+    color:#369fff;
+    font-weight: bold;
+    outline:none;
+    width:100px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator{
+    opacity:0.5;
+    font-size:16px;
+    cursor:pointer;
+}
+main .planning{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    margin-top:20px;
+}
+main .planning .item{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ 
