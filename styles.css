@@ -77,8 +77,8 @@ i{
     position: relative;
     transition: all 0.3s ease;
 }
-.container .left-section .sidebar .item#active a,
-.container .left-section .sidebar .item#active i,
+.container .left-section .sidebar .item.active a,
+.container .left-section .sidebar .item.active i,
 .container .left-section .sidebar .upgrade .link i{
     color:#369FFF;
 }
@@ -94,7 +94,7 @@ i{
     transform:translateY(166%);
     transition: all 0.3s ease;
 }
-.container .left-section .sidebar .item#active ::after{
+.container .left-section .sidebar .item#active::after{
     width:8px;
     height:8px;
 }
@@ -550,6 +550,23 @@ main .planning .item > i{
         font-size:36px;
     }
 } 
+@media screen and (max-width:768px){
+     .container{
+        grid-template-columns: 1fr;
+        padding-top:80px;
+     }
+     .container .right-section > .top{
+        position:absolute;
+        top:0; 
+        right:0;
+        width:100%;
+        padding:20px;
+        z-index:-100;
+     }
+     .container .right-section .weekly{
+        margin-bottom: 20px;
+     }
+}
 
 
 
