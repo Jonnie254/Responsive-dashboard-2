@@ -421,10 +421,16 @@ main .planning .item > i{
     color:#8EA3B7;
     font-weight:500;
  }
-container .right-section .stats .item .bottom {
+.container .right-section .stats .item .bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.container .right-section .stats .item .bottom .line{
+    width: 4px;
+    height:30px;
+    background: #369FFF;
+    border-radius: 20px;
 }
 
 .container .right-section .stats .item .bottom h3{
@@ -448,9 +454,28 @@ container .right-section .stats .item .bottom {
  }
  .container .right-section .weekly .title .line{
     width:6px;
-    height:50px;
+    height: 50px;
     background: #006ED3;
+    border-radius: 20px;
  }
+ .container .right-section .weekly h5{
+    font-size: 16px;;
+ }
+ .container .right-section .weekly .progress-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, #F7F7F7 79%, transparent 80% 100%),
+    conic-gradient(#ccc 25%, #006ED3 0%);
+ }
+ .container .right-section .weekly .progress-bar::before{
+    content: "3/4";
+    
+ }
+ 
   
 
 
